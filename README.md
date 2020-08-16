@@ -2,7 +2,7 @@
 Please notice that frames were **motion compensated** before feeding into VBDE network. Only VBDE net was provided in our work. 
 You can use your own MC algorithm to get motion compensated frames before feeding them into the network.  
 ### VBDE Architecture  
-<img src="https://github.com/TJUMMG/pictures2github/blob/master/vbde-architecture.png" width="80%" align=center />  
+<img src="https://github.com/TJUMMG/pictures2github/blob/master/Bit-Depth%20Enhancement/vbde-architecture.png" width="80%" align=center />  
 ### Results  
 
 ### Config  
