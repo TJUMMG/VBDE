@@ -11,4 +11,4 @@ You can use your own MC algorithm to get motion compensated frames before feedin
 ### Config  
 You need to set model path, pretrained parameter path and result path in `main_VBDEnet_test_tmp16.m`. Please guarantee video frames were motion compensated before feeding into VBDE network.
 ### Test
-For ‘Sintel’ test images,  run `main_VSRnet_test_tmp16.m` to get 16-bit image.
+For ‘Sintel’ test images,  run `main_VBDEnet_test_tmp16.m` to get 16-bit image.
