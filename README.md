@@ -11,8 +11,4 @@ Please notice that frames were **motion compensated** and were **normalized** by
 ### Config  
 You need to set model path, pretrained parameter path and result path in `main_VBDEnet_test_tmp16.m`. Please guarantee video frames were motion compensated before feeding into VBDE network.
 ### Test
-<<<<<<< HEAD
 For ‘Sintel’ test images,  run `main_VSRnet_test_tmp16.m` to get 16-bit image. We provide four patches in MAT formats of one image that was motion compensated in 4bit_data folder, you can have a try directly with provided data without pre-processing.
-=======
-For ‘Sintel’ test images,  run `main_VBDEnet_test_tmp16.m` to get 16-bit image.
->>>>>>> 9308d8983cd3975c89168acc807d3082078c23a8
