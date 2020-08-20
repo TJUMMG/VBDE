@@ -12,3 +12,8 @@ Please notice that frames were **motion compensated** and were **normalized** by
 Set your own configuration like caffe path, model path, pretrained parameter path and result path in `main_VBDEnet_test_tmp16.m`. Please guarantee video frames were motion compensated before feeding into VBDE network.
 ### Test
 For ‘Sintel’ test images,  run `main_VBDEnet_test_tmp16.m` to get 16-bit image. We provide four patches in MAT formats of one image that was motion compensated in 4bit_data folder, you can have a try directly with provided data without pre-processing.
+
+### Cite
+
+If you use this code, please cite the following publication:
+    J.Liu, P.Liu, Y.Su, P.Jing, X.Yang, "Spatiotemporal Symmetric Convolutional Neural Network for Video Bit-Depth Enhancement", to appear in IEEE TRANSACTIONS ON MULTIMEDIA
