@@ -4,10 +4,6 @@ Please notice that frames were **motion compensated** and were **normalized** by
 ### VBDE Architecture  
 <img src="https://github.com/TJUMMG/pictures2github/blob/master/Bit-Depth%20Enhancement/VBDE/vbde-architecture.png" width="80%" align=center />  
 
-
-###  Result  
-<img src="https://github.com/TJUMMG/pictures2github/blob/master/Bit-Depth%20Enhancement/VBDE/contrast.png" width="80%">  
-
 ### Config  
 Set your own configuration like caffe path, model path, pretrained parameter path and result path in `main_VBDEnet_test_tmp16.m`. Please guarantee video frames were motion compensated before feeding into VBDE network.
 ### Test
